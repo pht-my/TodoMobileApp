@@ -36,7 +36,7 @@ export default class Login extends React.Component {
     return (
       <SafeAreaView style={styles.container}>
         <Formik
-          initialValues={{ email: '', password: '' }}
+          initialValues={{ email: 'abc@gmail.com', password: '1111' }}
           onSubmit={values => { this.handleSubmit(values) }}
           
           validationSchema={validationSchema}>

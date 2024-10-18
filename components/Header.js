@@ -12,3 +12,4 @@ return(
         </HeaderView>
 );
 }
+export default Header;
